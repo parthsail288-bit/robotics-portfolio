@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Parth Prashant Sail | Robotics & Automation Portfolio
 
-# Run and deploy your AI Studio app
+Professional portfolio and Digital Twin simulation hub. This project showcases a 6-DOF Robotic Arm IK Solver and an industrial monitoring dashboard.
 
-This contains everything you need to run your app locally.
+## 🚀 Live Environment
+* **Local Access**: http://localhost:3000/
+* **Stack**: React, TypeScript, Vite, Tailwind CSS
 
-View your app in AI Studio: https://ai.studio/apps/063ed78b-44c0-4e9a-a920-25665a91ef33
+## 🛠️ Engineering Features
+* **Inverse Kinematics (IK) Solver**: Real-time 6-axis robotic arm simulation.
+* **Industrial Dashboard**: Real-time monitoring for motor temperature and system voltage.
+* **Technical Arsenal**: Integration of skills in AutoCAD, Fusion 360, and Python.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Local Installation
+1. Clone the repository to your local machine.
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
