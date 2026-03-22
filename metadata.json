@@ -1,5 +1,23 @@
 {
-  "name": "Parth Prashant Sail - Robotics Portfolio",
+  "name": "Parth Prashant Sail | Robotics Portfolio",
   "description": "A premium industrial-tech themed portfolio for an Automation and Robotics Engineering student.",
-  "requestFramePermissions": []
+  "profileImage": "/profile.jpg",
+  "resumeLink": "/resume.pdf",
+  "projects": [
+    {
+      "title": "Autonomous Robotic Arm",
+      "image": "/arm.png",
+      "description": "Developed a 4-DOF robotic arm for production line simulation with precise object handling."
+    },
+    {
+      "title": "Intelligent Security System",
+      "image": "/security.png",
+      "description": "Multi-layered security infrastructure utilizing optical intrusion detection and motion sensing."
+    },
+    {
+      "title": "Mindspark Robotica 2025",
+      "image": "/mindspark.png",
+      "description": "Ranked 6th in the national-level Robo Falconry event focusing on drone navigation."
+    }
+  ]
 }
