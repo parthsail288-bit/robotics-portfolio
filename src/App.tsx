@@ -429,12 +429,12 @@ export default function App() {
               <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a 
-              href="resume parth sail 1.pdf" 
+              href="/resume.pdf" 
               download="Parth_Sail_Resume.pdf"
               className="px-8 py-4 border border-neon text-neon font-bold uppercase tracking-widest hover:bg-neon/10 transition-colors flex items-center gap-2"
             >
               Download Resume
-              <Download size={18} />
+             <Download size={18} />
             </a>
           </motion.div>
         </div>
