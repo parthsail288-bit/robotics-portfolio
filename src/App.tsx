@@ -623,7 +623,7 @@ export default function App() {
               index={4}
               category="Competition"
               title="Engineering Today 2025"
-              image="engineering today.png"
+              image="engineering-today.png"
               fallbackImage="https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&q=80&w=800&h=600"
               description="Fabricated a competitive platform with custom RF communication protocols for high-speed Robo Soccer matches."
               tags={['RF Communication', 'Robo Soccer', 'Hardware']}
