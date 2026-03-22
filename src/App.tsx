@@ -240,7 +240,7 @@ const RoboticBackground = () => (
     {/* Background Image Layer */}
     <div className="absolute right-0 top-0 w-full h-full lg:w-3/4 opacity-15">
       <img 
-        src="robot background.png" 
+        src="robot-background.png" 
         alt="Robotic Background"
         className="w-full h-full object-cover object-right"
         style={{
