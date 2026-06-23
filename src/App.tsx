@@ -478,7 +478,7 @@ export default function App() {
               <div className="space-y-6">
                 <div className="inline-flex items-center gap-2 px-3 py-1 bg-neon text-dark font-bold text-xs uppercase tracking-widest mb-4">
                   <Award size={14} />
-                  CGPA: 7.86
+                  CGPA: 7.5
                 </div>
                 <p className="text-xl text-white/80 leading-relaxed italic">
                   "I am an Automation and Robotics Engineer. I specialize in bridging mechanical design with intelligent embedded control."
@@ -516,6 +516,14 @@ export default function App() {
                 title="HARDWARE" 
                 icon={Cpu}
                 skills={['Arduino IDE', 'Embedded Systems', 'RF Communication']} 
+              />
+            </FadeInWhenVisible>
+            {/* Added: Brand New Robotics & Vision Frameworks Column */}
+            <FadeInWhenVisible delay={0.4}>
+              <SkillCard 
+                title="ROBOTICS & VISION" 
+                icon={Box}
+                skills={['ROS 2 Jazzy', 'OpenCV', 'YOLOv8']} 
               />
             </FadeInWhenVisible>
           </div>
@@ -595,14 +603,24 @@ export default function App() {
             <ProjectCard 
               index={1}
               category="Robotics"
-              title="Autonomous Robotic Arm"
+              title="Autonomous Vision-Guided Pick & Place System (Ongoing)"
               image="arm.png"
               fallbackImage="https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&q=80&w=800&h=600"
-              description="Developed a 4-DOF robotic arm for production line simulation with precise object handling capabilities. Integrated 6-axis movement logic for industrial simulation."
-              tags={['High-torque servos', 'IR sensors', 'Arduino']}
+              description="An end-to-end autonomous robotic system integrating computer vision and motion planning to execute precision pick-and-place tasks. The system utilizes a 5-DOF robotic arm with a high-level control stack running on ROS2 jazzy."
+              tags={['High-torque servos', 'Raspberry Pi 5', 'PCA9685']}
             />
+            {/* Project 2: New CV Gesture Control System */}
             <ProjectCard 
               index={2}
+              category="Vision System"
+              title="CV-Based Gesture Control System for Mecanum Kinematics"
+              image="mecanum.jpeg" // Placeholder until you add the photo later
+              fallbackImage=""
+              description="This project involves the design and implementation of a real-time, computer vision-based control interface for an omnidirectional Mecanum-wheeled robotic platform. It utilizes gesture-based vector decomposition to enable multi-directional navigation without the need for physical controllers."
+              tags={['Python 3.12', 'OpenCV', 'Numpy']}
+            />
+            <ProjectCard 
+              index={3}
               category="Security"
               title="Intelligent Security System"
               image="security.png"
